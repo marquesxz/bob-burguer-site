@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bob Burguer</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #111; color: #fff; margin: 0; padding: 0; }
+    header, footer { background-color: #000; color: #ffc107; text-align: center; padding: 1em 0; }
+    .container { padding: 2em; max-width: 900px; margin: auto; }
+    .cardapio-item { background-color: #222; margin-bottom: 1em; padding: 1em; border-radius: 10px; }
+    .item-title { font-size: 1.2em; color: #ffc107; }
+    .preco { font-weight: bold; color: #0f0; }
+    .pedido-btn { background: #25d366; color: #fff; text-decoration: none; padding: 0.5em 1em; border-radius: 5px; font-weight: bold; float: right; }
+    .localizacao { margin-top: 1em; text-align: center; font-size: 1.1em; }
+    .logo { display: flex; justify-content: center; margin: 1em 0; }
+    .logo img { max-width: 100%; height: auto; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/mnt/data/A_logo_for_\"Bob_Burguer\"_is_displayed_against_a_so.png" alt="Logo Bob Burguer">
+    </div>
+    <p>Disk Entrega: <a href="https://wa.me/5565993575138" style="color:#25d366;">(65) 99357-5138</a></p>
+    <p class="localizacao">📍 Rua José de Oliveira, em frente à GS Loja de Alimentos, Alto Paraguai - MT</p>
+  </header>
+  
+  <div class="container">
+    <h2>Nosso Cardápio</h2>
+
+    <div class="cardapio-item">
+      <div class="item-title">🥪 Misto Caveirinha <a class="pedido-btn" href="https://wa.me/5565993575138?text=Quero%20um%20Misto%20Caveirinha">Pedir</a></div>
+      <div class="preco">R$ 10,00</div>
+      <p>Pão de hambúrguer, molho verde, catchup, salsicha, presunto, mussarela, alface e tomate.</p>
+    </div>
+
+    <div class="cardapio-item">
+      <div class="item-title">🥗 X-Salada <a class="pedido-btn" href="https://wa.me/5565993575138?text=Quero%20um%20X-Salada">Pedir</a></div>
+      <div class="preco">R$ 15,00</div>
+      <p>Pão de hambúrguer, molho verde, catchup, milho, hambúrguer artesanal, presunto, mussarela, alface e tomate.</p>
+    </div>
+
+    <div class="cardapio-item">
+      <div class="item-title">🍳 Baguncinha <a class="pedido-btn" href="https://wa.me/5565993575138?text=Quero%20uma%20Baguncinha">Pedir</a></div>
+      <div class="preco">R$ 20,00</div>
+      <p>Pão de hambúrguer, molho verde, catchup, calabresa, salsicha, ovo, hambúrguer artesanal, presunto, mussarela, alface e tomate.</p>
+    </div>
+
+    <div class="cardapio-item">
+      <div class="item-title">💥 X-Bagunça <a class="pedido-btn" href="https://wa.me/5565993575138?text=Quero%20um%20X-Bagunça">Pedir</a></div>
+      <div class="preco">R$ 24,00</div>
+      <p>Pão de hambúrguer, molho verde, catchup, milho, salsicha, 2 hambúrgueres artesanais, presunto, mussarela, alface e tomate.</p>
+    </div>
+
+    <div class="cardapio-item">
+      <div class="item-title">🔥 X-Tudo <a class="pedido-btn" href="https://wa.me/5565993575138?text=Quero%20um%20X-Tudo">Pedir</a></div>
+      <div class="preco">R$ 28,00</div>
+      <p>Pão de hambúrguer, molho verde, catchup, milho, calabresa, bacon, salsicha, ovo, 2 hambúrgueres artesanais, presunto, mussarela, alface e tomate.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bob Burguer - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
